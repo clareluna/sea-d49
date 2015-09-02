@@ -7,9 +7,11 @@ var expect = chai.expect;
 
 var expect2 = require('chai').expect;
 
+console.log(greet); 
+
 describe('greet', function() {
-  it('should return hello world', function() {
-    expect(greet()).to.eql('hello world');
+  it('should return hello specific name', function() {
+    expect(greet('this name')).to.eql('hello this name');
   });
 });
 
