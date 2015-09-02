@@ -1,7 +1,8 @@
 'use strict';
 
-var expect = require('chai').expect;
 var greet = require(__dirname + '/../lib/greet');
+var chai = require('chai').expect
+var expect = chai.expect;
 
 describe('greet', function() {
   it('should greet someone by name', function() {
